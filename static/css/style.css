@@ -1,3 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Eagle+Lake&family=Lugrasimo&display=swap');
 /*font names (Charm, Eagle Lake, Lugrasimo)*/
 
+/* Colors used
+green : RGB(54, 92, 55) hex (#365c37)
+blue : RGB(162, 196, 224) hex (#a2c4e0)
+cream/ map color : RGB (204, 181, 135) hex (#ccb587)
+grey : RGB (28, 28, 28) hex (#1c1c1c)
+
+/* overide default style */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* main styles */
+
+h1, h2 {
+    font-family: "Eagle Lake", 'Lugrasimo', sans-serif;
+    color: #1c1c1c;
+}
+
+h3, h4, h5, p {
+    font-family: "Charm", sans-serif;
+    color: #1c1c1c;
+}
